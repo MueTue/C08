@@ -60,5 +60,11 @@ struct s_stock_str *ft_strs_to_tab(int ac, char **av)
 
 int main()
 {
-      
+    char *str[] = {"monke","krok","doc"};
+
+    t_stock_str *arr;
+
+    arr = ft_strs_to_tab(3,str);
+
+    printf("%s",arr[1].str);
 }
