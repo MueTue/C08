@@ -66,5 +66,6 @@ int main()
 
     arr = ft_strs_to_tab(3,str);
 
+    
     printf("%s",arr[1].str);
 }
