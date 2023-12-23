@@ -12,7 +12,7 @@ int main(void)
     t_point point;
     set_point(&point);
 
-    printf("%d",point.x);
-    printf("%d",point.y);
+    printf("%d\n",point.x);
+    printf("%d\n",point.y);
     return (0);
 }
